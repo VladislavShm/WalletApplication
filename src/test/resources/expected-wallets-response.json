@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "code": "CODE-1",
+    "balance": 1
+  },
+  {
+    "id": 2,
+    "code": "CODE-2",
+    "balance": 2
+  },
+  {
+    "id": 3,
+    "code": "CODE-3",
+    "balance": 3
+  }
+]

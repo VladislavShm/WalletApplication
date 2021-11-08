@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+    <changeSet id="1636273592308-1" author="vladislavshm">
+        <sql>
+            insert into wallet (id, code, owner_id, balance)
+                values (1, 'de1257b0-fea2-48ff-a0f3-4078efb01fe7', 1, 50.00);
+
+            insert into wallet (id, code, owner_id, balance)
+                values (2, 'aa2fc964-c381-4eb4-b459-1db0ec6df34d', 1, 150.05);
+
+            insert into wallet (id, code, owner_id, balance)
+                values (3, '3adaba41-fe3e-4ac8-bf41-9f5b27a59046', 1, 30.10);
+
+            insert into wallet (id, code, owner_id, balance)
+                values (4, '00a8a524-ff26-42ec-8941-d37bcceddc91', 2, 3550.00);
+
+            insert into wallet (id, code, owner_id, balance)
+                values (5, '4ba819bd-61e4-4570-8df0-cfa84a35d905', 2, 9050.33);
+
+            insert into wallet (id, code, owner_id, balance)
+                values (6, '88c6c306-cdbd-47b0-b9d1-bca5f38e094e', 2, 54.06);
+
+            insert into wallet (id, code, owner_id, balance)
+                values (7, '37786f75-286e-476b-a400-d06f5da51557', 3, 123.12);
+
+            insert into wallet (id, code, owner_id, balance)
+                values (8, '018dbe1d-8b88-4263-9a4f-c2de54b9ed11', 3, 444.00);
+
+            insert into wallet (id, code, owner_id, balance)
+                values (9, '49ccc60b-ac88-48ac-8981-c13e05ecf7ec', 3, 980.10);
+        </sql>
+    </changeSet>
+</databaseChangeLog>
